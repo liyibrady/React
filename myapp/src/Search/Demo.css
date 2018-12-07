@@ -1,0 +1,52 @@
+.pa{
+    width: 100%;
+    height: 20px;
+    text-align: center;
+    color: red;
+}
+
+.ct-box{
+    height: 45px;
+    background-color: #e8e8e842;;
+    padding: 20px 10px 15px 10px;
+}
+
+.search-bx{
+    width: 275px;
+    float: left;
+    border-radius: 100px;
+    overflow: hidden;
+    background-color: white;
+    border: 1px solid #d6cccc;
+}
+
+img{
+    height: 40px;
+    width: 40px;
+    vertical-align: middle;
+}
+
+.inp-text{
+    height: 40px;
+    padding: 0;
+    margin: 0;
+    border: none;
+    width: 230px;
+}
+
+.inp-text:focus{
+    outline: none;
+}
+
+.btn-sea{
+    float: right;
+    height: 40px;
+    width: 62px;
+    border: 1px solid #d6cccc;
+    background: #fff;
+    border-radius: 5px;
+    color: #7b7a7a;
+    font-family: cursive;
+    font-size: 18px;
+    cursor: default;
+}

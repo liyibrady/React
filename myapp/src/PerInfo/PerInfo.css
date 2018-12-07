@@ -1,0 +1,17 @@
+.per{
+    height: 812px;
+    width: 375px;
+    background-color:cornsilk;
+    border: 1px solid #222222;
+}
+
+.per-btn{
+    position: relative;
+    left: 50%;
+    top: 50%;
+    height: 30px;
+    width: 100px;
+}
+ul{
+    list-style: none;
+}

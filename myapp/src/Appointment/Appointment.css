@@ -1,0 +1,48 @@
+.appoint-head{
+         width: 100%;
+         height: 46px;
+         border-bottom: 1px solid #9490902b;
+}
+
+html body{
+    margin: 0;
+    padding: 0;
+}
+
+
+.head-text{
+    float: left;
+    height: 42px;
+    width: 190px;
+    padding-left: 19px;
+    margin-left: 81px;
+    padding-top: 10px;
+    letter-spacing: 1px;
+}
+
+.head-pic{
+    float: left;
+}
+
+
+.location{
+    float:left;
+    margin-top: 11px;
+    float: left;
+    color: #4159e2;
+}
+
+
+.goback{
+    cursor: pointer;
+}
+
+.ct-loc{
+    font-size: 1px;
+    text-indent: 11px;
+    letter-spacing: 1px;
+}
+
+.red-ct{
+    color: red;
+}

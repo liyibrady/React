@@ -1,0 +1,225 @@
+/** {*/
+    /*margin: 0;*/
+    /*padding: 0;*/
+    /*box-sizing: border-box;*/
+    /*-moz-box-sizing: border-box;*/
+    /*-webkit-box-sizing: border-box*/
+/*}*/
+
+/*html,*/Fragment {
+    height: 100%;
+    font-size: 14px;
+    line-height: 1.6em;
+    background-color: #f7f7f7;
+}
+
+Fragment,input, a, input, button, select, textarea {
+    color: #333;
+    font-family: microsoft yahei
+}
+
+Fragment {
+    word-wrap: break-word;
+    color: #333
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0
+}
+
+address, caption, cite, code, dfn, em, strong, th, var {
+    font-style: normal;
+    font-weight: 400
+}
+
+ol, ul {
+    list-style: none
+}
+
+caption, th {
+    text-align: left
+}
+
+img {
+    border: 0;
+    vertical-align: top
+}
+
+a {
+    text-decoration: none
+}
+
+article, aside, dialog, figure, footer, header, legend, nav, figcaption, section {
+    display: block
+}
+
+input {
+    outline: 0;
+    color: #666
+}
+
+input::-webkit-input-placeholder, textarea::-webkit-input-placeholder,
+input:-moz-placeholder, textarea:-moz-placeholder,
+input::-moz-placeholder, textarea::-moz-placeholder,
+input:-ms-input-placeholder, textarea:-ms-input-placeholder{
+    color: #bbb
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus {
+    -webkit-box-shadow: 0 0 0 1 e3px #fff inset
+}
+
+input, button, select, textarea {
+    outline: 0
+}
+
+/*-----------------------------------------------*/
+.page-content {
+    background-color: #fff;
+    box-sizing: border-box;
+    width: 100%;
+    margin-top: 70px;
+}
+
+.input-item {
+    padding: 10px 0;
+    display: flex;
+    height: 70px;
+    align-items: center;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.input-item > span {
+    margin-left: 20px;
+    display: inline-block;
+    color: #333;
+    line-height: 25px;
+    width: 80px;
+    font-size: 18px;
+    margin-right: 10px;
+}
+
+.input-item > input {
+    padding: 0;
+    font-size: 18px;
+    color: #333;
+    flex: 1;
+    border: 0;
+    background-color: transparent;
+}
+
+.auth-code {
+    width: 80px;
+    height: 30px;
+    background-color: #999999;
+    margin-right: 20px
+}
+
+.search-btn {
+    margin: 35px 20px;
+    background-color: #ff721f;
+    width: calc(100% - 40px);
+    height: 50px;
+    display: block;
+    line-height: 50px;
+    text-align: center;
+    font-size: 16px;
+    color: #fff;
+}
+
+.right-arrow-div {
+    display: inline-block;
+    line-height: 70px;
+    padding-right: 20px;
+    padding-top: 5px;
+}
+
+.input-item > p {
+    display: inline-block;
+    flex: 1;
+    font-size: 18px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.remark {
+    padding: 20px 20px 20px 20px;
+}
+
+.remark > p {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.remark > textarea {
+    background-color: #f6f6f6;
+    border: 1px;
+    padding: 10px;
+    width: 100%;
+    height: 140px;
+    color: #333;
+    font-size: 18px;
+    vertical-align: top;
+}
+
+.remark > p:last-child {
+    font-size: 14px;
+    margin-top: 10px;
+    text-align: right;
+    color: #797979;
+}
+
+hr {
+    margin-left: 20px;
+    background: #f7f7f7;
+    border: 0;
+    height: 1px;
+}
+
+.input-item-hover {
+    background-color: #f3f3f3;
+}
+
+.mask {
+    z-index: 70;
+    position: fixed;
+    top: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0,0,0,0.7);
+    overflow: hidden;
+
+}
+
+.wheel {
+    background-color: #fff;
+    bottom: 0;
+    position: absolute;
+    z-index: 50;
+    height: 300px;
+    width: 100vw;
+}
+
+.wheelBtn {
+    display: flex;
+    background-color: #fff;
+    position: absolute;
+    bottom: 300px;
+    z-index: 50;
+    height: 40px;
+    width: 100vw;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+.maskTop {
+    position: absolute;
+    bottom: 340px;
+    width: 100vw;
+    height: calc(100vh - 340px);
+}
